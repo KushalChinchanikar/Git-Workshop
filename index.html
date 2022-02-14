@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            // $("p").text('This is my first jquery program');
+            // $("body").css('background','green');
+
+            // $('#hide').click(function(){
+            //     $('p').hide();
+            //     $('body').css('background','black')
+
+            //     $('#show').click(function(){
+            //         $('p').show();
+            //         $('body').css('background','white')
+            //     })
+            // })
+
+            // $('#fade-in').click(function(){
+            //     $('p').fadeIn('slow');
+            // });
+            // $('#fade-out').click(function(){
+            //     $('p').fadeOut('slow');
+            // });
+            // $('#toggle').click(function(){
+            //     $('p').toggle();
+            // });
+
+            $('p').slideUp();
+            $('#p2').slideDown(2000);
+
+            // $('button').click(function(){
+            //     $('div').animate({
+            //     left:'500px',
+            //     opacity:'1',
+            //     height:'200px',
+            //     width:'200px',
+            // });
+            // })
+            
+
+
+        });
+    </script>
+</head>
+<body>
+    <!-- <p>Hide and Show</p>
+    <input type="button" id="fade-in" value="Fade In">
+    <input type="button" id="fade-out" value="Fade Out">
+    <input type="button" id="toggle" value="Toggle"> -->
+
+    <p>Slide Up</p>
+    <p id="p2">Slide Down</p>
+
+    <!-- <button>Animate!!</button>
+    <div style="background-color: blueviolet;height:100px;width:100px;position:absolute;opacity: 0.7; font-size: medium;">Hi</div> -->
+</body>
+</html>
